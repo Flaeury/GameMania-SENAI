@@ -1,0 +1,34 @@
+<header class="header-gamemania">
+    <!-- NavBar -->
+    <div class="container-grid cabecalho d-flex align-items-center">
+        <img class="logo container-grid" src="/assets/img-icons/img/GAME MANIA2.png" alt="Logo da página" >
+        <div>
+            <form class="pesquisa-produtos container-grid-img d-flex align-items-center">
+                <input type="search"  placeholder="Busque aqui o seu produto">
+                <button type="submit"><img src="/assets/img-icons/icons/Rectangle 20.png"></button>
+            </form>
+        </div>
+        <!-- Menu -->
+        <nav id="menu" class="menu container">          
+            <a href="index.html">HOME</a>
+            <a href="#">CONTATO</a>
+            <a href="#">SOBRE NÓS</a>
+            <a routerLink="/login">ENTRAR / CADASTRAR</a>
+        </nav>
+
+        <!--MENU HAMBURGUER-->
+        <div class="hamburger-menu" id="barras">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+        
+            <ul class="menu__box  container" >
+                <li><a class="menu__item" href="#">Home</a></li>
+                <li><a class="menu__item" href="#">Contato</a></li>
+                <li><a class="menu__item" href="#">Sobre nós</a></li>
+                <li><a class="menu__item" routerLink="/login" >Entrar / Cadastrar</a></li>
+            </ul>
+          </div>
+    </div>
+</header>

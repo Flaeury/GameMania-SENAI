@@ -1,0 +1,426 @@
+footer {
+    background-color: #101010;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.footer {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+footer img {
+    width: 100%;
+    max-width: 22px;
+}
+.contatos-redes-sociais img {
+    margin-right: 10px;
+}
+.logo2 {
+    width: 100%;
+    max-width: 9.5vw !important;
+    margin: 0.86vw;
+}
+.fim-footer {
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+.location {
+    display: inline-flex;
+    align-items: center;
+    margin: 5px;
+}
+.contatos-redes-sociais p {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+}
+#newsletter {
+    text-transform: uppercase;
+    background-color: #202020;
+    width: 420px;
+    height: 220px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+}
+.formulario {
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.checkbox {
+    margin: 10px;
+    align-self: center;
+}
+.formulario button {
+    border-radius: 4px;
+    height: 27px;
+    width: 100%;
+    max-width: 23%;
+    margin: 10px auto;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 11.5px;
+    font-weight: 550;
+    background-color: #ffffff;
+    border: none;
+}
+.checkbox a {
+    color: #ffffff;
+    font-size: 9.5px;
+    display: flex;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 10px;
+}
+#newsletter legend {
+    color: #ffffff;
+    font-family: 'Opens Sans Hebrew', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 25px 10px 10px  10px;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    width: 100%;
+}
+#campo-email{
+    width: 90%;
+    border-radius: 2px;
+    height: 1.85vw;
+    border: none;
+    font-family: 'Noto', sans-serif;
+}
+#campo-email::placeholder {
+    color: #000000;
+    font-size: 10px;
+    padding: 10px;
+    font-weight: normal;
+}
+.contatos-redes-sociais  a {
+    text-decoration: none;
+    margin: 4.01vw auto;
+}
+.contatos-redes-sociais h3 {
+    margin: 50px 0 10px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    letter-spacing: -0.03em;
+    font-weight: 550;
+}
+@media screen and (min-width: 2000px) {
+    .afooter {
+        margin: 0 auto;
+        max-width: 63vw;
+    }
+    .logo2 {
+        width: 100%;
+        max-width: 11vw !important;
+    }
+}
+@media screen and (max-width: 1300px) {
+    #newsletter legend {
+        padding-top: 16px;
+        font-size: 8.7px;
+    }
+    #newsletter {
+        width: 265px;
+        height: 152px;
+        border-radius: 5px;
+    }
+    .formulario {
+        padding: 8.5px;
+    }
+    #campo-email::placeholder {
+        font-size: 8.5px;
+    }
+    .checkbox {
+        margin: 7.8px;
+    }
+    .formulario button {
+        height: 16px;
+        width: 100%;
+        max-width: 22.5%;
+        margin: 1px auto;
+        font-size: 6.5px;
+    }
+    .checkbox a {
+        font-size: 5.2px;
+    }
+    #campo-email{
+        width: 85%;
+        border-radius: 2px;
+        height: 22px;
+    }
+    .contatos-redes-sociais p {
+        font-size: 14.5px;
+    }
+    .afooter {
+        max-width: 63vw;
+    }
+
+}
+@media screen and (max-width: 1020px) {
+    .footer  {
+        display: inline-grid;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    #newsletter {
+        text-transform: uppercase;
+        background-color: #202020;
+        width: 420px;
+        height: 220px;
+        border-radius: 5px;
+        text-align: center;
+        align-items: center;
+    }
+    .formulario {
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+    .checkbox {
+        margin: 10px;
+        align-self: center;
+    }
+    .formulario button {
+        border-radius: 4px;
+        height: 27px;
+        width: 100%;
+        max-width: 23%;
+        margin: 10px auto;
+        font-family: 'Noto Sans', sans-serif;
+        text-transform: uppercase;
+        font-size: 11.5px;
+        font-weight: 550;
+        background-color: #ffffff;
+        border: none;
+    }
+    .checkbox a {
+        color: #ffffff;
+        font-size: 9.5px;
+        display: flex;
+        font-weight: lighter;
+        font-family: 'Open Sans', sans-serif;
+        padding-left: 10px;
+    }
+    #newsletter legend {
+        color: #ffffff;
+        font-family: 'Opens Sans Hebrew', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        padding: 25px 10px 10px  10px;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        width: 100%;
+    }
+    #campo-email{
+        width: 90%;
+        border-radius: 2px;
+        height: 32px;
+        border: none;
+        font-family: 'Noto', sans-serif;
+    }
+    #campo-email::placeholder {
+        color: #000000;
+        font-size: 10px;
+        padding: 10px;
+        font-weight: normal;
+    }
+    .contatos-redes-sociais  h3 {
+       font-size: 1.8vw; 
+    }
+    .contatos-redes-sociais  p {
+        font-size: 1.78vw;
+    }
+    .fim-footer {
+        font-size: 1.78vw;
+    }
+    .cont-red {
+        align-items: center;
+        display: flex;
+        text-align: center;
+        margin: 0 auto;
+    } 
+    .logo2 {
+        max-width: 13.4vw !important;
+    }
+}
+@media screen and (max-width: 770px) {
+    .logo2 {
+        width: 100%;
+        max-width: 16vw !important;
+    }
+}
+@media screen and (max-width: 550px) {  
+    #newsletter {
+    width: 100%;
+    height: 100%;
+    max-width: 59.5vw;
+    max-height: 36vw;
+    align-items: center;
+    display: inline-block;
+    }
+    .formulario {
+        display: inline-block;
+        width: 100%;
+        align-items: center;
+    }
+    .checkbox {
+        margin: 1.6vw;
+    }
+    .formulario button {
+        height: 4.41vw;
+        width: 100%;
+        max-width: 26%;
+        margin: 1.6vw auto;
+        font-size: 1.92vw;
+        display: flex;
+        align-items: center;
+    }
+    .checkbox a {
+        color: #ffffff;
+        font-size: 1.27vw;
+        display: flex;
+        display: flex;
+        align-items: center;
+    }
+    .checkboxa {
+        padding-left: 1vw;
+    }
+   
+    #newsletter legend {
+        text-align: center;
+        padding: 3.81vw 1.67vw 2.5vw 1.67vw;
+        font-size: 1.95vw;
+        letter-spacing: 0.03em;
+        width: 100%;
+        align-items: center;
+        display: flex;
+    }
+    #campo-email{
+        width: 90%;
+        border-radius: 2px;
+        height: 5.9vw;
+        align-items: center;
+        display: inline-block;
+    }
+    #campo-email::placeholder {
+        color: #000000;
+        font-size: 1.68vw;
+        padding: 1.62vw;
+        font-weight: normal;
+        align-items: center;
+        display: flex;
+    }
+    .contatos-redes-sociais h3 {
+        font-size: 2.89vw;
+    }
+    .contatos-redes-sociais p {
+        font-size: 2.72vw;
+    }
+    .fim-footer p {
+        font-size: 2.72vw;
+    }
+    .logo2 {
+        width: 100%;
+        max-width: 19vw !important;
+    }
+}
+@media screen and (max-width: 330px) {
+    .footer img {
+        width: 100%;
+        max-width: 5.5vw;
+    }
+    .fim-footer img {
+        width: 100%;
+        max-width: 5.5vw;
+    }
+    #newsletter {
+        width: 100%;
+        height: 100%;
+        max-width: 58.5vw;
+        max-height: 42.1vw;
+        align-items: center;
+        display: inline-block;
+    }
+    .formulario {
+        display: inline-block;
+        width: 100%;
+        align-items: center;
+    }
+    .checkbox {
+        margin: 1.4vw;
+    }
+    .formulario button {
+        height: 4.41vw;
+        width: 100%;
+        max-width: 26%;
+        margin-top: 3.5vw;
+        font-size: 1.97vw;
+        display: flex;
+        align-items: center;
+    }
+    .checkbox a {
+        color: #ffffff;
+        font-size: 1.78vw;
+        display: flex;
+        display: flex;
+        align-items: center;
+    }
+    
+    #newsletter legend {
+        text-align: center;
+        padding: 3.91vw 1.61vw 2.5vw 1.61vw;
+        font-size: 2.43vw;
+        letter-spacing: 0.03em;
+        width: 100%;
+        align-items: center;
+        display: flex;
+    }
+    #campo-email{
+        width: 90%;
+        border-radius: 2px;
+        height: 5.9vw;
+        align-items: center;
+        display: inline-block;
+    }
+    #campo-email::placeholder {
+        color: #000000;
+        font-size: 2.1vw;
+        padding: 1.62vw;
+        font-weight: normal;
+        align-items: center;
+        display: flex;
+    }
+    .contatos-redes-sociais h3 {
+        font-size: 2.89vw;
+    }
+    .contatos-redes-sociais p {
+        font-size: 2.95vw;
+    }
+    .fim-footer p {
+        font-size: 2.95vw;
+    }
+    .logo2 {
+        width: 100%;
+        max-width: 29vw !important;
+    }
+    .card-produtos {
+        margin: 4vw 0 4vw 0;
+    }
+    .afooter img {
+        width: 100%;
+        max-width: 5.27vw;
+    }
+    .contatos-redes-sociais a {
+        margin: 6.5vw 0;
+    }
+}

@@ -34,7 +34,7 @@
               "src/assets/Login_v4/js/main.js",
               "src/assets/Login_v4/vendor/countdowntime/countdowntime.js",
               "src/assets/Login_v4/vendor/jquery/jquery-3.2.1.min.js"
-
+              
             ]
           },
           "configurations": {

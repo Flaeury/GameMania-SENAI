@@ -1,0 +1,332 @@
+header {
+    background-color: #101010;
+    height:90px;
+}
+.container-grid-img {
+    justify-content: space-around;
+}
+.container-grid-img img {
+    width: 100%;
+    max-width: 25px;
+}
+.container-grid-img button {
+    background-color: #202020;
+    border: none;
+    padding: 4.4px 10px;
+    border-radius: 0 2px 2px 0;
+}
+
+.logo {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 9vw;
+}
+.container {
+    width: 100%;
+    max-width: 77%;
+    margin: 0 auto;
+}
+.cabecalho {
+    height: 100%;
+    justify-content: space-between;
+}
+.menu {
+    width: 24.57vw;
+    justify-content: space-between;
+    padding-left: 1.28vw;
+    display: flex;
+}
+.menu a {
+    font-size: 0.94vw;  
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -0.095em;
+    font-weight: 400;
+    justify-content: space-between;
+}
+.icone-menu {
+    height: 34px;
+}
+#barras {
+    display: none;
+}
+.cabecalho input{
+    background-color: black;
+    font-family: 'Noto Sans HK', sans-serif;
+    border: none;
+    margin: 10px 0 10px 30px;
+    color: white;
+    border-radius: 2px 0 0 2px;
+    width: 100%;
+    height: 100%;
+    padding: 0 1.7vw;
+    font-size: 0.75vw;
+}
+.pesquisa-produtos {
+    width: 25.97vw;
+    height: 2.3vw;
+    padding: 0%;
+    display: flex;
+}
+.cabecalho input::placeholder {
+    color: white;
+    font-family: 'Noto Sans HK', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.75vw;
+    opacity: 0.9;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.cabecalho button {
+   height: 100%;
+}
+.pesquisa-produtos img {
+    display: flex;
+    align-items: center;
+}
+
+#menu__toggle {
+    opacity: 0;
+    width: 0%;
+    margin: 0%;
+    padding: 0%;
+  }
+  #menu__toggle:checked + .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    right: 0 !important;
+  }
+  .menu__btn {
+    position: relative;
+    width: 25px;
+    cursor: pointer;
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #00ffff;
+    transition-duration: .25s;
+    z-index: 2;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  .menu__box {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    max-width: 23.7vw;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #101010;
+    box-shadow: 2px 2px 6px rgba(50, 50, 50, .4);
+    transition-duration: .25s;
+    z-index: 1;
+  }
+  .menu__item {
+    display: block;
+    padding: 2vw 2vw;
+    color: rgb(220, 220, 220);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.21vw;
+    font-weight: 550;
+    text-decoration: none;
+    transition-duration: .25s;
+    text-transform: uppercase;
+    letter-spacing: 0.11vw;
+  }
+  .menu__item:hover {
+    background-color: #CFD8DC;
+    color: #47a3e9;
+  }
+
+  @media screen and (min-width: 2000px) {
+    .container-grid {
+        margin: 0 auto;
+    }
+    header {
+        height: 5vw;
+    }
+    .logo {
+        max-width: 7vw;
+        padding-right: 0.3vw;
+        margin: 0 0 0 3vw;
+        margin-right: 0.2vw;
+    }
+    .cabecalho {
+        display: flex;
+        align-items: center;
+    }
+    .menu { 
+        width: auto;
+        margin-left: 1.5vw;  
+    }
+    .menu a{
+        font-size: 0.86vw;
+        margin: 0.65vw;
+        justify-content: space-between;
+    }
+    .pesquisa-produtos {
+        width: 27vw;
+        height: 2.3;
+    }
+    .cabecalho input {
+        width: 100%;
+        height: 100%;
+        font-size: 0.7vw;
+    }
+    .cabecalho input::placeholder {
+        width: 100%;
+        height: 100%;
+        font-size: 0.7vw;
+    }
+    .cabecalho button {
+        height: 100%;
+        width: 2.4vw;
+    }
+    .pesquisa-produtos img {
+        width: 100%;
+        max-width: 8vw;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .pesquisa-produtos {
+        width: 26.9vw;
+        height: 2.37vw;
+    }
+    .cabecalho button {
+        padding: 0.12vw 0.47vw;
+    }
+    .menu {
+        width: 25.9vw;
+    }
+    .menu a {
+        justify-content: space-between;
+        font-size: 0.97vw;
+    }
+}
+@media screen and (max-width: 1150px) {
+    #barras {
+        display: flex;
+        align-items: center;
+        margin-left: 11.7vw;
+    }
+    .menu {
+        display: none;
+    }
+    .menu-ativo {
+        display: flex;
+    }
+    .menu a {
+        font-size: 19px;
+    }
+    .pesquisa-produtos {
+        width: 33.1vw;
+        height: 3vw;
+    }
+    .pesquisa-produtos input::placeholder {
+        font-size: 1vw;
+    }
+    .pesquisa-produtos input {
+        font-size: 1vw;
+    }
+    .logo {
+        width: 100%;
+        max-width: 10.7vw;
+    }
+}
+@media screen and (max-width: 1020px) {
+    .header-gamemania {
+        height: 90px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .cabecalho button {
+        display: none;
+    }
+    .pesquisa-produtos {
+        height: 3.4vw;
+        width: 35.5vw;
+    }
+    .cabecalho input {
+        margin: 0 2vw;
+        font-size: 1.16vw;
+    }
+    .cabecalho input::placeholder {
+        font-size: 1.16vw;
+    }
+    .logo {
+        width: 100%;
+        max-width: 12vw !important;
+    }
+    #barras {
+        margin-left: 6.2vw;
+    }
+}
+@media screen and (max-width: 770px) {
+    .menu__item {
+        font-size: 1.47vw;
+    }
+    .menu__box {
+        max-width: 25.7vw;
+      }
+   .pesquisa-produtos {
+    display: none !important;
+   }
+   .logo {
+    width: 100%;
+    max-width: 15vw !important;
+    margin: 0%;
+   }
+}
+@media screen and (max-width: 550px) {  
+    .logo {
+        width: 100%;
+        max-width: 18.5vw !important;
+    }
+    .menu__box {
+        max-width: 28.41vw;
+    }
+    .menu__item {
+        font-size: 1.76vw;
+    }
+}
+@media screen and (max-width: 330px) {
+    .menu__box {
+        width: 100%;
+        max-width: 31.55vw !important;
+    }
+    .menu__item {
+        font-size: 2vw;
+        padding: 2.5vw 2.23vw;
+        font-size: 2.15vw;
+    }
+    .logo {
+        width: 100%;
+        max-width: 24vw !important;
+    }
+}

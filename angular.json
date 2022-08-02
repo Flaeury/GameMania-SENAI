@@ -23,9 +23,19 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css",
+              "src/assets/Login_v4/fonts/font-awesome-4.7.0/css/font-awesome.min.css",
+              "src/assets/Login_v4/fonts/iconic/css/material-design-iconic-font.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-3.6.0.js",
+              "src/assets/js/script.js",
+              "src/assets/Login_v4/js/main.js",
+              "src/assets/Login_v4/vendor/countdowntime/countdowntime.js",
+              "src/assets/Login_v4/vendor/jquery/jquery-3.2.1.min.js"
+
+            ]
           },
           "configurations": {
             "production": {
@@ -97,5 +107,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "76102947-66ce-4393-9d0d-9c6a14f7a4cd"
   }
 }

@@ -334,6 +334,12 @@ footer img {
         max-width: 19vw !important;
     }
 }
+@media screen and (max-width: 440px) {
+    #newsletter {
+        height: 100%;
+        max-height: 48vw;
+    }
+}
 @media screen and (max-width: 330px) {
     .footer img {
         width: 100%;
@@ -422,5 +428,11 @@ footer img {
     }
     .contatos-redes-sociais a {
         margin: 6.5vw 0;
+    }
+}
+@media screen and (max-width: 285px) {
+    #newsletter {
+        height: 100%;
+        max-height: 48.5vw;
     }
 }

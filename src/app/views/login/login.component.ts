@@ -15,9 +15,6 @@ export class LoginComponent implements OnInit {
 
   userModel = new User();
 
-  receberDados() {
-
-    
+  receberDados() { 
   }
-
 }

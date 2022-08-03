@@ -136,7 +136,6 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 15px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -405,6 +404,13 @@
       visibility: visible;
       opacity: 1;
     }
+  }
+  @media screen and (max-width: 700px) {
+    .container-login100 {	
+      padding: 20px;
+      align-items: center;
+      }
+  
   }
 
   /*//////////////////////////////////////////////////////////////////

@@ -120,7 +120,7 @@ header {
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: #00ffff;
+    background-color: #00a6ff;
     transition-duration: .25s;
     z-index: 2;
   }

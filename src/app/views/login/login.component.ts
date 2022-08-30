@@ -18,6 +18,8 @@ export class LoginComponent implements OnInit {
 
   receberDados() { 
     console.log(this.userModel)
-    this.loginService.login(this.userModel)
+    this.loginService.login(this.userModel).subscribe( (response) => {
+      console.log(response)
+    } )
   }
 }

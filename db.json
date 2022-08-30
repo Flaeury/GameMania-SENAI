@@ -5,6 +5,30 @@
       "password": "$2a$10$ZtDe/5HoCOlu.JpPRL1Rhu7Gbyt8fNw9RbSw245Bb3tk7jhMlEJ/q",
       "nome": "Thiago",
       "id": 1
+    },
+    {
+      "email": "Raiane@email.com",
+      "password": "$2a$10$xx0S5DISk2f1hheELtVc0e7I5gzG4/RSw5barmJab.WwY88GRXchC",
+      "nome": "Raiane",
+      "id": 2
+    },
+    {
+      "email": "raiane@email.com",
+      "password": "$2a$10$vbcIeSMKy7MhDa8FR9BHOepUS8X/UL.pk74IpDl9WXq/dBzwh37GW",
+      "nome": "Raiane",
+      "id": 3
+    },
+    {
+      "email": "lucas123@email.com",
+      "password": "$2a$10$JfxT7TexTWeOmntltW4z.ubc/3fCPlq8O3fd.e1p.N7Ngm68VlenK",
+      "nome": "Lucas",
+      "id": 4
+    },
+    {
+      "email": "Marcio678@email.com",
+      "password": "$2a$10$J9tD8w5x7avRBy2t4CkiJumOAjX2igv.s5AVToVmxmW4tsILyRj2S",
+      "nome": "Marcio",
+      "id": 5
     }
   ]
 }

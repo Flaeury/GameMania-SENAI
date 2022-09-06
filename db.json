@@ -29,6 +29,12 @@
       "password": "$2a$10$J9tD8w5x7avRBy2t4CkiJumOAjX2igv.s5AVToVmxmW4tsILyRj2S",
       "nome": "Marcio",
       "id": 5
+    },
+    {
+      "email": "Marcio67890@email.com",
+      "password": "$2a$10$tbIwf4RH4zcY9w5kBR7elu2OUfsxU0Dhr8qm1r7hWqWc0K/G2diny",
+      "nome": "Marcio",
+      "id": 6
     }
   ]
 }
